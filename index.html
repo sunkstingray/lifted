@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chris Lynam - Lifted Logic Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+</head>
+<body>
+    <div id="page-container">
+    <div class="navbar">
+        <img class= "logo" src="assets/images/SRrecordings.png" alt="logo">
+        <ul class="nav">
+            <li><a class="link" href="#home"><img class= "icon" src="assets/images/home.svg" alt="icon"><h4>Home</h4></a>
+            <li><a class="link" href="#records"><img class= "icon" src="assets/images/records.svg" alt="icon"><h4>Records</h4></a>
+            <li><a class="link" href="#music"><img class= "icon" src="assets/images/music.svg" alt="icon"><h4>Music</h4></a>
+            <li><a class="link" href="#artists"><img class= "icon" src="assets/images/artists.svg" alt="icon"><h4>Artists</h4></a>
+            <li><a class="link" href="#concerts"><img class= "icon" src="assets/images/concerts.svg" alt="icon"><h4>Concerts</h4></a>
+            <li class="sign-up"><button>Sign Up</button></li>
+        </ul>
+      </div>
+      
+      <div class="main">
+            <div class="hero">
+                <!-- <img src="assets/images/image1.png" alt="hero image"> -->
+                <div class="hero-text">
+                    <h1>A.M. Paradox</h1>
+                    <p>Christopher Brent Wood, better known by his satge name Brent Faiyaz, is
+                        and American singer and record producer. He released his debut project, an
+                        extended play entitled A.M. Paradox, in 2016.</p>
+                    <div class="play">
+                        <a href="#play"><img src="assets/images/playbutton.svg" alt="play button"><span class="watch">Watch Video</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="spotlight">
+                <div class="spotlight-inner">
+                    <div class="spot-img"></div>
+                    <div class="spotlight-text">
+                        <h2>Brent Faiyaz, So Far Gone</h2>
+                        <p>Faiyaz began uploading his music onto SoundCloud in 2014 and moved from his hometown Columbia, Maryland to Charlotte, North Carolina before ultimately settling in Los Angeles, California to further his music career. On January 19, 2015, he released his debut single "Allure". On June 1, 2016, Faiyaz released "Invite Me", the lead single from his upcoming debut EP. On September 19, 2016, his 21st birthday, the EP entitled A.M. Paradox was released and had received positive reviews from music critics.</p>
+                        <button>Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="new-releases">
+                <div class="new-releases-inner">
+                    <h2>New Releases</h2>
+                    <p>New albums every single month, check out the newest & best from Snyder Recording artisits, now available on Apple Music & Spotify.</p>
+                </div>
+            </div>
+            <div class="carousel" data-flickity='{ "pageDots": false }'>
+                <div class="carousel-cell">
+                    <div class="shadow-box">
+                        <div class="carousel-img">
+                            <img src="assets/images/image4.png" alt="trapsoul album">
+                        </div>
+                        <div class="carousel-text">
+                            <h3>Trapsoul</h3>
+                            <h4>BRYSON TILLER</h4>
+                            <p>Bryson Djuan Tiller, is an American singer, songwriter and rapper. Born in Louisville, Kentucky, he started his career in 2011, releasing the debut mixtape titled Killer Instinct Vol.1.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="shadow-box">
+                        <div class="carousel-img">
+                            <img src="assets/images/image4.png" alt="trapsoul album">
+                        </div>
+                        <div class="carousel-text">
+                            <h3>Trapsoul</h3>
+                            <h4>BRYSON TILLER</h4>
+                            <p>Bryson Djuan Tiller, is an American singer, songwriter and rapper. Born in Louisville, Kentucky, he started his career in 2011, releasing the debut mixtape titled Killer Instinct Vol.1.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="shadow-box">
+                        <div class="carousel-img">
+                            <img src="assets/images/image4.png" alt="trapsoul album">
+                        </div>
+                        <div class="carousel-text">
+                            <h3>Trapsoul</h3>
+                            <h4>BRYSON TILLER</h4>
+                            <p>Bryson Djuan Tiller, is an American singer, songwriter and rapper. Born in Louisville, Kentucky, he started his career in 2011, releasing the debut mixtape titled Killer Instinct Vol.1.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-controller">
+                    <!-- <button class="button button--next">Next</button>
+                    <button class="button button--next-wrapped">Next wrapped</button> -->
+                    <img class="button button--previous" src="assets/images/left_controller.svg" alt="left controller">
+                    <img class="button button--next" src="assets/images/right_controller.svg" alt="right controller">
+            </div>
+            <div id="map"></div>
+      </div>
+    </div>
+    
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/map.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNOBHMBPs40TrNkVsg1NmM9Cfw0zYhg74&callback=initMap">
+    </script>
+</body>
+</html>
