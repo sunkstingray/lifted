@@ -58,7 +58,7 @@ body {
 }
 
 .icon {
-    padding-right: 10px;
+    padding-right: 6px;
 }
 
 button {
@@ -88,7 +88,7 @@ h1 {
     letter-spacing: 0.73px;
     line-height: 76px;
     color:#ffffff;
-    margin: 0;
+    margin: 0 0 6px 0;
 }
 
 h2 {
@@ -99,6 +99,7 @@ h2 {
     line-height: 50px;
     color: #001d5d;
     margin-top: 0;
+    margin-bottom: 14px;
 }
 
 h3 {
@@ -109,6 +110,7 @@ h3 {
     line-height: 40px;
     color: #001d5d;
     margin-top: 0;
+    margin-bottom: 8px;
 }
 
 h4 {
@@ -116,9 +118,14 @@ h4 {
     font-weight: bold;
     font-size: 16px;
     letter-spacing: 1px;
-    line-height: 18px;
+    line-height: 25px;
     margin-top: 0;
+    margin-bottom: 6px;
     text-transform: uppercase;
+}
+
+.navbar li h4 {
+    text-transform: capitalize;
 }
 
 p {
@@ -176,7 +183,7 @@ p {
     color: #ffffff;
     display: flex;
     align-content: flex-start;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .watch {
@@ -195,8 +202,8 @@ p {
 }
 
 .spotlight-text {
-    width: 50%;
-    margin-right: 200px;
+    width: 40%;
+    max-width: 500px;
 }
 
 .spotlight-text p {
@@ -210,8 +217,8 @@ p {
 .spot-img {
     margin: 0 40px 0 0;
     height: auto;
-    width: 100%;
-    background: url(../images/image2.png) top left no-repeat;
+    width: 500px;
+    background: url(../images/image2.png) center center no-repeat;
     background-size: auto 100%;
 }
 
@@ -225,7 +232,7 @@ p {
     width: 40%;
     text-align: center;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 .carousel {
@@ -233,12 +240,12 @@ p {
 }
 
 .carousel-cell {
-    width: 660px;
-    height: 330px;
+    width: 600px;
+    height: 308px;
     border-radius: 5px;
     display: flex;
     align-content: center;
-    padding: 20px;
+    padding: 14px;
     background-color: #f6f6f6;
     margin: 0px;
 }
@@ -276,13 +283,13 @@ p {
 
 .carousel-controller {
     display: flex;
-    height: 140px;
+    height: 136px;
     justify-content: center;
     background-color: #f6f6f6;
 }
 
 .button {
-    margin: 20px 20px 80px 20px;
+    margin: 20px 20px 60px 20px;
 }
 
 .button:hover {
@@ -291,7 +298,7 @@ p {
 
 #map {
     width: 100%;
-    height: 600px;
+    height: 560px;
     background-color: #f6f6f6;
   }
 
@@ -306,7 +313,7 @@ p {
 
 .form-img {
     width: 40%;
-    height: 800px;
+    height: 740px;
     background: url(../images/image3.png) center bottom no-repeat;
     display: flex;
     background-size: 100% auto;
@@ -320,19 +327,19 @@ p {
     flex: 1 1 auto;
     display: block;
     font-family: 'Karla', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 0;
     line-height: 25px;
     font-weight: bold;
     background-color: #eeeeee;
     border: none;
-    padding: 14px 20px;
+    padding: 12px 20px;
     margin-top: 40px;
     margin-right: 40px;
   }
 
 .form button {
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 select {
@@ -345,13 +352,13 @@ select {
  .footer {
      background-color: #001d5d;
      color: #ffffff;
-     padding: 80px 80px 40px 80px;
+     padding: 80px 80px 20px 80px;
  }
 
  .footer-nav {
      display: flex;
      justify-content: space-between;
-     padding-bottom: 80px;
+     padding-bottom: 60px;
      border-bottom: 1px solid #ffffff;
  }
 
@@ -372,7 +379,7 @@ select {
  }
 
  .footer-bottom {
-     padding-top: 40px;
+     padding-top: 20px;
      display: flex;
      justify-content: space-between;
  }
