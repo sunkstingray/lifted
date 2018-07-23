@@ -37,10 +37,6 @@ body {
 
 .navbar li {
     padding: 0px 0 0 80px;
-    /* height: 40px; */
-    /* display: flex;
-    align-content: center; */
-    /* vertical-align: middle; */
 }
 
 .navbar li a {
@@ -158,8 +154,7 @@ p {
     margin-top: 80px;
 }
 
-
-.container-main {
+.page-container {
     display: flex;
     flex-direction: column;
 }
@@ -315,8 +310,7 @@ p {
     width: 40%;
     height: 740px;
     background: url(../images/image3.png) center bottom no-repeat;
-    display: flex;
-    background-size: 100% auto;
+    background-size: cover;  
 }
 
 .form-group {
@@ -400,3 +394,137 @@ select {
  .legal a {
      margin-right: 40px;
  }
+
+ @media screen and (max-width: 1439px) {
+    .navbar li {
+        padding: 0px 0 0 40px;
+    }
+  }
+
+  @media screen and (max-width: 1128px) {
+    .navbar li {
+        padding: 0px 0 0 20px;
+    }
+    .navbar {
+        padding: 5px 40px;
+    }
+    .hero-text {
+        margin: auto 40px;
+    }
+    .spotlight {
+        padding: 60px 40px 80px 40px;
+    }
+    .new-releases-inner {
+        width: 50%;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .form-group {
+        flex-direction: column;
+    }
+    .form-text {
+        padding: 40px;
+        width: 50%;
+    }
+    .form-img {
+        width: 50%;
+        height: 860px; 
+    }
+  }
+
+  @media screen and (max-width: 930px) {
+    .navbar {
+        height: 120px;
+    }
+    .nav {
+        flex-wrap: wrap;
+        padding-left: 20px;
+    }
+    .nav button {
+        width: 90px;
+        height: 30px;
+    }
+    .nav h4 {
+        font-size: 14px;
+    }
+    .hero-text h1{
+        font-size: 50px
+    }
+    
+    .spotlight-inner {
+        flex-wrap: wrap;
+    }
+    .spotlight-text {
+        width: 60%;
+        max-width: none;
+    }
+    
+    .spotlight-text p {
+        color: #525252;
+    }
+    
+    .spotlight-text button {
+        margin-top: 20px;
+    }
+    
+    .spot-img {
+        margin: 0 0 20px 0;
+        height: 300px;
+        width: 60%;
+        background: url(../images/image2.png) left center no-repeat;
+        background-size: cover;
+    }
+    .new-releases {
+        display: flex;
+        background-color: #f6f6f6;
+    }
+    .new-releases-inner {
+        width: 60%;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        padding-right: 100px;
+    }
+    .carousel-cell {
+        width: 520px;
+    }
+    .carousel-controller {
+        justify-content: flex-start;
+        padding-left: 180px;
+    }
+    .form-group {
+        flex-direction: column;
+    }
+    .form-group .input-control {
+        margin-right: 0px;
+      }
+    .form-text {
+        padding: 40px;
+        width: 50%;
+    }
+    .form-img {
+        width: 50%;
+        height: 900px; 
+    }
+    .footer {
+        padding: 40px 40px 10px 40px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .footer-nav {
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+    .footer-nav ul {
+        margin-right: 10px;
+        margin-bottom: 20px;
+     }
+    .legal a {
+        margin-right: 6px;
+        font-size: 8px
+    }
+    .social {
+        width: 130px;
+    }
+  }
