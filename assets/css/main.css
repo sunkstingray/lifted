@@ -7,8 +7,6 @@ html {
 body {
     width: 100%;
     margin: 0;
-    /* height: 100%;    */
-    /* overflow: hidden; */
     display: flex;
     font-family: 'Karla', sans-serif;
     font-size: 16px;
@@ -139,6 +137,7 @@ p {
 .page-container {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .main {
     flex-grow: 1;  /*ensures that the container will take up the full height of the parent container*/
@@ -153,10 +152,11 @@ p {
 }
 
 .hero {
-    width: 100%;
+    width: 3000px;
     height: 600px;
     animation: pulse 30s linear infinite;
     background: url(../images/image1.png) top center no-repeat;
+    background-size: cover;
     box-sizing: border-box;
     display: flex;
     margin-top: 80px;
@@ -393,9 +393,24 @@ select {
      margin-right: 40px;
  }
 
+ @media screen and (max-width: 2560px) {
+    .hero {
+        width: 2560px;
+    }
+  }
+
+ @media screen and (max-width: 2000px) {
+    .hero {
+        width: 2000px;
+    }
+  }
+
 @media screen and (max-width: 1439px) {
     .navbar li {
         padding: 0px 0 0 40px;
+    }
+    .hero {
+        width: 100%;
     }
   }
 
